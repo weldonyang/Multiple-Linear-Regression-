@@ -45,5 +45,5 @@ print(np.concatenate((y_pred.reshape(len(y_pred), 1), y_test.reshape(len(y_test)
 # R&D = 160,000
 # Admin = 130,000
 # Marketing = 300,000
-# State = California
+# State = California [1, 0, 0]
 print(regressor.predict([[1, 0, 0, 160000, 130000, 300000]]))
